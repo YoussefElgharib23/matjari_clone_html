@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        main {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nk-content {
+            background-color: white;
+        }
+
+        .btn-lg {
+            padding: .3rem 1rem;
+            font-size: 1.15rem;
+            border-radius: .3rem;
+        }
+
+        .btn-primary {
+            background-color: #6576ff;
+            border-color: #6576ff;
+        }
+
+        a.link {
+            color: #6576ff !important;
+            text-decoration: none;
+        }
+
+        .img_logo {
+            width: 110px;
+        }
+    </style>
+    <title>Login</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <div class="row flex-column align-items-center w-100 main_form">
+            <img src="assets/images/login_logo.png" class="mb-3 img_logo" alt="">
+            <div class="col-lg-5 mx-auto border rounded-3 p-4 px-5 nk-content">
+
+                <h1 class="text-center mb-4 font-weight-bold h2">Login to your account</h1>
+                <div class="my-2 text-black-50">
+                    <p>
+                        Access to your dashboard using your email and password.
+                    </p>
+                </div>
+
+                <div class="alert alert-danger">
+                    Invalid credentials
+                </div>
+
+                <form action="#" method="POST">
+
+                    <div class="mb-3">
+
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name="email" id="email" class="form-control"
+                            placeholder="Enter your email address" required>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" name="password" id="password" class="form-control"
+                            placeholder="Enter your password" required>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-lg btn-primary w-100">Login</button>
+
+                </form>
+
+                <p class="text-center my-3">
+                    <small>
+                        New on our platform ? <a href="#" class="link">Create new account</a>
+                    </small>
+                </p>
+
+                <p class="my-2 text-center">
+                    <small class="font-weight-bolder">
+                        OR
+                    </small>
+                </p>
+
+                <div class="row my-3">
+                    <div class="col-md-6 text-center">
+                        <a href="#" class="link">Facebook</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a href="#" class="link">Google</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
