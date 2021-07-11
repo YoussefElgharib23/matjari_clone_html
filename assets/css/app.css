@@ -1,0 +1,38 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nk-content {
+    background-color: white;
+}
+
+.btn-lg {
+    padding: .3rem 1rem;
+    font-size: 1.15rem;
+    border-radius: .3rem;
+}
+
+.btn-primary {
+    background-color: #6576ff;
+    border-color: #6576ff;
+}
+
+a.link {
+    color: #6576ff !important;
+    text-decoration: none;
+}
+
+.img_logo {
+    width: 110px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, .5) !important;
+}
